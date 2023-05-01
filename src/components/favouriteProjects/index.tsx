@@ -12,14 +12,15 @@ export default function Projects() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {/* Single card */}
-          <div className="bg-white text-black rounded-[6px] h-[300px]">
-            <a
-              href="https://tailwindmasterkit.com"
-              className="w-full block shadow-2xl"
-            >
-              Tailwind Master Kit 01
-            </a>
-          </div>
+          <a href="https://exquisite-pithivier-21bc33.netlify.app/home">
+            <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
+              <img
+                src="/your-tour.png"
+                className="h-full  w-full rounded-[6px]"
+              />
+              <p className="absolute">Your Tour Web App</p>
+            </div>
+          </a>
           <div className="bg-white text-black rounded-[6px] h-[300px]">
             <a
               href="https://tailwindmasterkit.com"

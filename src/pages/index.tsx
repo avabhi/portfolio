@@ -57,32 +57,11 @@ const experienceData: experience[] = [
     ],
   },
 ];
-const educationData: IEducation[] = [
-  {
-    schoolName: "Raj Kumar Goel Institute of Technology",
-    courseName: "B.Tech",
-    startYear: "2015",
-    endYear: "2019",
-    location: "Ghaziabd,U.P",
-  },
-  {
-    schoolName: "Chacha Nehru Smarak Inter College",
-    courseName: "XII (Senior Secondary)",
-    startYear: "2012",
-    endYear: "2014",
-    location: "Kanpur,U.P",
-  },
-  {
-    schoolName: "Chacha Nehru Smarak Inter College",
-    courseName: "X (Secondary)",
-    startYear: "2010",
-    endYear: "2012",
-    location: "Kanpur,U.P",
-  },
-];
+
 export default function Home() {
   return (
     <ContainerBlock
+      //@ts-ignore
       title="Abhinav Vishwakarma - Developer"
       // description="Building a template with Next.js and Tailwindcss - for FreeCodeCamp users."
     >

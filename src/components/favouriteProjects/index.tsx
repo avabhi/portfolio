@@ -21,7 +21,16 @@ export default function Projects() {
               <p className="absolute">Your Tour Web App</p>
             </div>
           </a>
-          <div className="bg-white text-black rounded-[6px] h-[300px]">
+          <a href="https://exquisite-pithivier-21bc33.netlify.app/home">
+            <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
+              <img
+                src="/rock-paper.png"
+                className="h-full  w-full rounded-[6px]"
+              />
+              <p className="absolute">Rock-Paper-Scissiors</p>
+            </div>
+          </a>
+          {/* <div className="bg-white text-black rounded-[6px] h-[300px]">
             <a
               href="https://tailwindmasterkit.com"
               className="w-full block shadow-2xl"
@@ -36,7 +45,7 @@ export default function Projects() {
             >
               Tailwind Master Kit 01
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

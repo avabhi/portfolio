@@ -23,7 +23,7 @@ const Experience: React.FC<IExperience> = ({ experienceData }) => {
       </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gapp-y-8 py-20 pb-40">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-y-8 py-20 pb-40">
           {/* Single card */}
 
           {experienceData ? (

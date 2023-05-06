@@ -19,14 +19,14 @@ export default function Navbar() {
         <p className="font-[600] text-[18px]">Abhinav Vishwakarma</p>
         <p className="font-[400] text-[14px]">Full Stack Developer</p>
       </div>
-      <div>
+      {/* <div>
         <ul className="flex items-center gap-x-[8px]">
           <li>About</li>
           <li>Projects</li>
           <li>Experience</li>
           <li>Contact</li>
         </ul>
-      </div>
+      </div> */}
       <div className="flex items-center">
         <div>
           <ul className="flex items-center gap-x-[8px]">
@@ -43,7 +43,7 @@ export default function Navbar() {
                   width="20px"
                   height="20px"
                   viewBox="0 0 40 40"
-                  enable-background="new 0 0 40 40"
+                  enableBackground="new 0 0 40 40"
                   xmlSpace="preserve"
                 >
                   <g display="none">
@@ -100,8 +100,8 @@ export default function Navbar() {
                   <g display="none">
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M20,29.616c-6.911,0-13.412-3.681-17-9.615
 		c3.588-5.935,10.089-9.617,17-9.617c6.91,0,13.412,3.682,17,9.617C33.412,25.936,26.91,29.616,20,29.616L20,29.616z M19.998,12.254
 		c-5.817,0-11.309,2.848-14.687,7.618l-0.088,0.125l0.088,0.124c3.378,4.77,8.87,7.618,14.687,7.618
@@ -109,8 +109,8 @@ export default function Navbar() {
                     />
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M19.987,13.521c-3.574,0-6.478,2.9-6.478,6.479
 		c0,3.579,2.904,6.478,6.478,6.478c3.581,0,6.478-2.898,6.478-6.478C26.465,16.42,23.568,13.521,19.987,13.521z M19.987,24.857
 		c-2.68,0-4.858-2.175-4.858-4.858s2.178-4.859,4.858-4.859c2.686,0,4.858,2.175,4.858,4.859S22.673,24.857,19.987,24.857z"
@@ -538,8 +538,8 @@ export default function Navbar() {
                   <g display="none">
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M13.786,29.113c-1.022,0-1.853-0.829-1.853-1.85l-0.245-1.479
 		l-0.287-1.924c-0.052-0.188-0.076-0.348-0.076-0.498L9.373,9.702L9.035,7.667H5.377C4.894,7.667,4.5,7.274,4.5,6.791
 		c0-0.482,0.394-0.875,0.877-0.875h3.899c0.056,0,0.111,0.014,0.169,0.03l0.025,0.006l0.075,0.007
@@ -552,15 +552,15 @@ export default function Navbar() {
                     />
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M15.948,30.188c-1.076,0-1.948,0.872-1.948,1.949
 		c0,1.076,0.872,1.948,1.948,1.948c1.079,0,1.951-0.872,1.951-1.948C17.899,31.06,17.027,30.188,15.948,30.188z"
                     />
                     <circle
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       cx="29.598"
                       cy="32.136"
                       r="1.949"
@@ -714,8 +714,8 @@ export default function Navbar() {
                   />
                   <path
                     display="none"
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M22.672,29.195l-7.148,3.457c-0.331-0.021-0.63-0.235-0.951-0.766
 	L5,6.985c0.013-0.354,0.356-0.697,0.778-0.697l28.958,15.838c0.131,0.141,0.304,0.615,0.256,0.94
 	c-0.018,0.122-0.063,0.202-0.135,0.239l-6.256,3.024v5.654c0,0.926-0.731,1.685-1.646,1.726L22.672,29.195z M23.732,28.689
@@ -805,8 +805,8 @@ export default function Navbar() {
                   <g display="none">
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M10.738,35.5c-0.462,0-0.531-0.451-0.531-0.721V6.297
 		c0-0.991,0.806-1.797,1.797-1.797h15.99c0.992,0,1.799,0.806,1.799,1.797v28.482c0,0.229-0.056,0.408-0.16,0.521
 		c-0.093,0.1-0.225,0.15-0.391,0.15l0,0c-0.34,0-0.754-0.211-1.106-0.563l-8.137-8.138l-8.137,8.138
@@ -816,8 +816,8 @@ export default function Navbar() {
                     />
                     <path
                       display="inline"
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M25.791,15.35c-0.004,0-0.006-0.006-0.012-0.008
 		c-0.053-0.023-0.111-0.039-0.176-0.039c-0.023,0-0.041,0.01-0.063,0.012c-1.507-0.037-3.844-0.098-3.844-0.098
 		s-0.795-2.249-1.296-3.666c-0.012-0.037-0.027-0.068-0.047-0.1c-0.021-0.041-0.043-0.07-0.064-0.082
@@ -2103,7 +2103,7 @@ export default function Navbar() {
         </div>
         <div className="flex  md:flex-row justify-between items-center">
           {/* Logo / Home / Text */}
-          <button
+          {/* <button
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
@@ -2134,7 +2134,7 @@ export default function Navbar() {
                 )}
               </svg>
             )}
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

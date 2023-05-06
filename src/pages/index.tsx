@@ -7,6 +7,8 @@ import FavouriteProjects from "../components/favouriteProjects";
 // import LatestCode from "../components/LatestCode";
 import Hero from "../components/hero/hero";
 import Experience, { IExperience, experience } from "@/components/experience";
+import Contact from "@/components/contact";
+import { IEducation } from "@/components/education";
 const inter = Inter({ subsets: ["latin"] });
 
 const experienceData: experience[] = [
@@ -19,11 +21,12 @@ const experienceData: experience[] = [
     tasks: [
       "Built CBC platform from End to End web app using NextJS,Express,PostgreSQL",
       "Worked on Live Simulation Experience of Webinar and also worked on PWA using Next JS,Express,PostgreSQL",
+      "Worked on complete backend infra and apis for Apllication named- Outskill",
     ],
   },
   {
     company: "Primathon",
-    designation: "Primathon Technology Ventures Pvt. Ltd.",
+    designation: "Software Development Engineer - 2",
     from: "10/2021",
     to: "06/2022",
     location: "Gurugram,India",
@@ -31,6 +34,50 @@ const experienceData: experience[] = [
       "Built E-learning platfrom web app using Next Js,Express,PostgreSQL",
       "Worked on products which has customizable components using React JS.",
     ],
+  },
+  {
+    company: "Tata Consultancy Services",
+    designation: "System Engineer",
+    from: "06/2019",
+    to: "09/2021",
+    location: "Banglore,India",
+    tasks: [
+      "Built components for a high-performance Ticketing Tool web app using React Js.",
+      "Monitored and tested application performance to identify potential bottlenecks, develop solutions, and collaborate with the backend team on solution implementation",
+    ],
+  },
+  {
+    company: "Olcademy",
+    designation: "Frontend Developer Intern",
+    from: "07/2018",
+    to: "09/2028",
+    location: "",
+    tasks: [
+      "Creating User profile Dashboard with the help of HTML,CSS, Bootstrap.",
+    ],
+  },
+];
+const educationData: IEducation[] = [
+  {
+    schoolName: "Raj Kumar Goel Institute of Technology",
+    courseName: "B.Tech",
+    startYear: "2015",
+    endYear: "2019",
+    location: "Ghaziabd,U.P",
+  },
+  {
+    schoolName: "Chacha Nehru Smarak Inter College",
+    courseName: "XII (Senior Secondary)",
+    startYear: "2012",
+    endYear: "2014",
+    location: "Kanpur,U.P",
+  },
+  {
+    schoolName: "Chacha Nehru Smarak Inter College",
+    courseName: "X (Secondary)",
+    startYear: "2010",
+    endYear: "2012",
+    location: "Kanpur,U.P",
   },
 ];
 export default function Home() {
@@ -42,6 +89,7 @@ export default function Home() {
       <Hero />
       <FavouriteProjects />
       <Experience experienceData={experienceData} />
+      <Contact />
       {/* <LatestCode /> */}
     </ContainerBlock>
   );

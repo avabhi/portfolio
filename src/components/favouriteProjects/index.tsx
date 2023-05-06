@@ -21,7 +21,7 @@ export default function Projects() {
               <p className="absolute">Your Tour Web App</p>
             </div>
           </a>
-          <a href="https://exquisite-pithivier-21bc33.netlify.app/home">
+          <a href="https://hilarious-sawine-f31f15.netlify.app/">
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img
                 src="/rock-paper.png"

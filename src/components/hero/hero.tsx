@@ -14,20 +14,20 @@ export default function Hero() {
       endYear: "2019",
       location: "Ghaziabd,U.P.",
     },
-    {
-      schoolName: "Chacha Nehru Smarak Inter College",
-      courseName: "XII (Senior Secondary)",
-      startYear: "2012",
-      endYear: "2014",
-      location: "Kanpur,U.P.",
-    },
-    {
-      schoolName: "Chacha Nehru Smarak Inter College",
-      courseName: "X (Secondary)",
-      startYear: "2010",
-      endYear: "2012",
-      location: "Kanpur,U.P.",
-    },
+    // {
+    //   schoolName: "Chacha Nehru Smarak Inter College",
+    //   courseName: "XII (Senior Secondary)",
+    //   startYear: "2012",
+    //   endYear: "2014",
+    //   location: "Kanpur,U.P.",
+    // },
+    // {
+    //   schoolName: "Chacha Nehru Smarak Inter College",
+    //   courseName: "X (Secondary)",
+    //   startYear: "2010",
+    //   endYear: "2012",
+    //   location: "Kanpur,U.P.",
+    // },
   ];
   return (
     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-6">

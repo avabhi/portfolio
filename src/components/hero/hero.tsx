@@ -46,9 +46,11 @@ export default function Hero() {
         {/* </RainbowHighlight> */}
         {/* <RainbowHighlight color={colors[2]}> */}
         <h3>
-          Experienced Web Developer with a demonstrated history of working in
-          the information technology and services industry. Skilled in Web
-          Development.
+          As a full-stack developer with four years of experience, I have a
+          comprehensive understanding of both front-end and back-end
+          technologies. I have successfully designed and implemented robust
+          applications, optimised database performance, and created responsive
+          user interfaces.
         </h3>
         {/* </RainbowHighlight> */}
         {/* </RoughNotationGroup> */}

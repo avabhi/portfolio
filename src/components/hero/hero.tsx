@@ -86,7 +86,11 @@ export default function Hero() {
         </div>
       </div>
       <div className="">
-        <img src="/abhi.jpeg" alt="my-picture" className="rounded-[12px]" />
+        <img
+          src="/abhi.jpeg"
+          alt="my-picture"
+          className="rounded-[12px] max-h-[700px]  w-full object-cover"
+        />
       </div>
     </div>
   );

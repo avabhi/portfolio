@@ -30,7 +30,7 @@ export default function Projects() {
               <p className="absolute">Your Tour Web App</p>
             </div>
           </a>
-          <a href="https://hilarious-sawine-f31f15.netlify.app/">
+          {/* <a href="https://hilarious-sawine-f31f15.netlify.app/">
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img
                 src="/rock-paper.png"
@@ -38,7 +38,7 @@ export default function Projects() {
               />
               <p className="absolute">Rock-Paper-Scissiors</p>
             </div>
-          </a>
+          </a> */}
 
           {/* <div className="bg-white text-black rounded-[6px] h-[300px]">
             <a

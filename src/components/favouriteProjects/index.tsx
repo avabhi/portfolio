@@ -21,6 +21,15 @@ export default function Projects() {
               <p className="absolute">Messenger-Clone</p>
             </div>
           </a>
+          <a href="https://play.google.com/store/apps/details?id=io.growthschool&hl=en-IN">
+            <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
+              <img
+                src="/outskill.png"
+                className="h-full  w-full rounded-[6px]"
+              />
+              <p className="absolute">Outskill Android App</p>
+            </div>
+          </a>
           <a href="https://exquisite-pithivier-21bc33.netlify.app/home">
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img

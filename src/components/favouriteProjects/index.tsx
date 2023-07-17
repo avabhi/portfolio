@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {/* Single card */}
-          <a href="https://messenger-clone-avabhi.vercel.app//">
+          <a href="https://messenger-clone-avabhi.vercel.app/" target="_blank">
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img
                 src="/messenger-clone.png"
@@ -21,7 +21,10 @@ export default function Projects() {
               <p className="absolute">Messenger-Clone</p>
             </div>
           </a>
-          <a href="https://play.google.com/store/apps/details?id=io.growthschool&hl=en-IN">
+          <a
+            href="https://play.google.com/store/apps/details?id=io.growthschool&hl=en-IN"
+            target="_blank"
+          >
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img
                 src="/outskill.png"
@@ -30,7 +33,10 @@ export default function Projects() {
               <p className="absolute">Outskill Android App</p>
             </div>
           </a>
-          <a href="https://exquisite-pithivier-21bc33.netlify.app/home">
+          <a
+            href="https://exquisite-pithivier-21bc33.netlify.app/home"
+            target="_blank"
+          >
             <div className="rounded-[6px] h-[300px]  cursor-pointer relative">
               <img
                 src="/your-tour.png"

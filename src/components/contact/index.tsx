@@ -48,12 +48,12 @@ export default function Contact() {
     <>
       <section>
         <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-          <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+          <h1 className="text-3xl md:text-6xl  font-bold py-20 text-center md:text-left px-4 lg:px-0 text-gray-800 dark:text-gray-200">
             Contact
           </h1>
         </div>
-        <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-[20px]">
-          <div className="relative z-10 rounded-md shadow-md bg-[white] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto  mx-20 py-20 text-[black]">
+        <div className="bg-[#F1F1F1] dark:bg-gray-900 mt-[20px] px-4 lg:px-0 py-[2rem]">
+          <div className="relative z-10 rounded-md shadow-md bg-[white] px-4 max-w-6xl mx-auto   py-[2rem] text-[black]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex flex-col gap-y-[16px]">
                 <h1 className=" font-semibold text-2xl">
@@ -69,47 +69,53 @@ export default function Contact() {
                   <p className=" font-light text-sm">vabhinav368@gmail.com</p>
                 </div>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[black] hover:border hover:border-blue-500 ">
+              <div className="flex flex-row items-center space-x-6 rounded-md">
                 <form
-                  className="form rounded-lg bg-white p-4 flex flex-col md:w-full"
+                  className="form rounded-2xl bg-gradient-to-br from-blue-50 via-white to-blue-100 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 p-6 flex flex-col w-full shadow-lg "
                   onSubmit={(e) => formSubmitHandler(e)}
                   name="contact"
                 >
-                  <label htmlFor="name" className="text-sm text-gray-600 mx-4">
+                  <label
+                    htmlFor="name"
+                    className="text-sm text-blue-700 dark:text-blue-300 mx-4 font-semibold"
+                  >
                     Your Name
                   </label>
                   <input
                     type="text"
-                    className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 text-white "
+                    className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 mt-2 px-3 mx-4 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400"
                     name="name"
                     ref={nameRef}
+                    placeholder="Enter your name"
                   />
                   <label
                     htmlFor="email"
-                    className="text-sm text-gray-600 mx-4 mt-4"
+                    className="text-sm text-blue-700 dark:text-blue-300 mx-4 mt-4 font-semibold"
                   >
                     Email
                   </label>
                   <input
-                    type="text"
-                    className="font-light rounded-md border focus:outline-none py-2 m-4 px-1  text-white"
+                    type="email"
+                    className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 m-4 px-3 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400"
                     name="email"
                     ref={emailRef}
+                    placeholder="Enter your email"
                   />
                   <label
-                    htmlFor="email"
-                    className="text-sm text-gray-600 mx-4 mt-4"
+                    htmlFor="message"
+                    className="text-sm text-blue-700 dark:text-blue-300 mx-4 mt-4 font-semibold"
                   >
                     Message
                   </label>
                   <textarea
-                    className="font-light rounded-md border focus:outline-none py-2 m-4 px-1  text-white"
+                    className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 m-4 px-3 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400 min-h-[100px]"
                     name="message"
                     ref={messageRef}
+                    placeholder="Type your message..."
                   />
                   <button
                     type="submit"
-                    className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+                    className="bg-blue-500 hover:bg-blue-600 rounded-lg w-1/2 mx-4 mt-8 py-2 text-white text-sm font-bold shadow transition-colors duration-200"
                   >
                     Send Message
                   </button>

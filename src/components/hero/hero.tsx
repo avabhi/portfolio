@@ -3,6 +3,7 @@ import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import { RainbowHighlight } from "./rainbowHighlight";
 import Image from "next/image";
 import Education, { IEducation } from "../education";
+import { ABOUT_ME, SKILLS } from "@/constants/constants";
 
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
@@ -30,67 +31,41 @@ export default function Hero() {
     // },
   ];
   return (
-    <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-4 py-6">
+    <div className="max-w-6xl mx-auto flex gap-8 px-4 lg:px-0 py-6">
       {/* Text container */}
       <div className="flex flex-col gap-y-[12px]">
         {/* <RoughNotationGroup show={true}> */}
         {/* <RainbowHighlight color={colors[0]}> */}
-        <h1 className=" text-3xl  lg:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
+        <h1 className=" text-3xl  lg:text-6xl font-bold text-gray-700 dark:text-gray-200">
           Developer.
         </h1>
         {/* </RainbowHighlight> */}
         {/* <RainbowHighlight color={colors[1]}> */}
-        <h1 className="text-3xl  lg:text-6xl font-bold text-gray-700 dark:text-gray-200 my-2">
+        <h1 className="text-3xl  lg:text-6xl font-bold text-gray-700 dark:text-gray-200">
           Programmer.
         </h1>
         {/* </RainbowHighlight> */}
         {/* <RainbowHighlight color={colors[2]}> */}
-        <h3>
-          As a full-stack developer with four years of experience, I have a
-          comprehensive understanding of both front-end and back-end
-          technologies. I have successfully designed and implemented robust
-          applications, optimised database performance, and created responsive
-          user interfaces.
-        </h3>
+        <h3>{ABOUT_ME}</h3>
         {/* </RainbowHighlight> */}
         {/* </RoughNotationGroup> */}
         <div className="flex flex-col gap-y-[16px]">
           <h1 className="font-[600] text-[24px]"> Skills</h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-y-[12px] gap-x-[16px]">
-            <div className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              Javascript
-            </div>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              React JS
-            </p>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              NextJs
-            </p>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              Express
-            </p>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              Aws (intermediate)
-            </p>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              PostgresSQl
-            </p>
-            <p className="bg-[grey] text-[16px] rounded-[12px] p-[6px] text-center">
-              Redis
-            </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-[12px] gap-x-[16px]">
+            {SKILLS.map((skill, index) => (
+              <div
+                key={index}
+                className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-100 via-white to-blue-200 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 text-blue-700 dark:text-blue-200 font-semibold text-[16px] rounded-xl px-4 py-2 shadow border border-blue-200 dark:border-gray-700 transition-colors duration-300"
+              >
+                {skill}
+              </div>
+            ))}
           </div>
         </div>
         <div className="flex flex-col gap-y-[16px]">
           <div className="font-[600] text-[24px]"> Education</div>
           <Education educationData={educationData} />
         </div>
-      </div>
-      <div className="">
-        <img
-          src="/abhi.jpeg"
-          alt="my-picture"
-          className="rounded-[12px] max-h-[700px]  w-full object-cover"
-        />
       </div>
     </div>
   );

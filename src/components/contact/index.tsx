@@ -82,6 +82,7 @@ export default function Contact() {
                     Your Name
                   </label>
                   <input
+                    id="name"
                     type="text"
                     className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 mt-2 px-3 mx-4 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400"
                     name="name"
@@ -95,6 +96,7 @@ export default function Contact() {
                     Email
                   </label>
                   <input
+                    id="email"
                     type="email"
                     className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 m-4 px-3 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400"
                     name="email"
@@ -108,6 +110,7 @@ export default function Contact() {
                     Message
                   </label>
                   <textarea
+                    id="message"
                     className="font-light rounded-lg border border-blue-200 dark:border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-400 py-2 m-4 px-3 text-gray-800 dark:text-white bg-white dark:bg-gray-800 placeholder-gray-400 min-h-[100px]"
                     name="message"
                     ref={messageRef}
